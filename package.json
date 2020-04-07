@@ -1,0 +1,19 @@
+{
+  "name": "mesto_server",
+  "version": "0.0.1",
+  "description": "\u0016creating server without database, authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsu-dxdy/mesto_server.git"
+  },
+  "author": "Alsu A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alsu-dxdy/mesto_server/issues"
+  },
+  "homepage": "https://github.com/alsu-dxdy/mesto_server#readme"
+}
