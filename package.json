@@ -1,7 +1,7 @@
 {
   "name": "mesto_server",
   "version": "0.0.1",
-  "description": "\u0016creating server without database, authentication",
+  "description": "creating server without database, authentication",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
