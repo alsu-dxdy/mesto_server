@@ -12,6 +12,7 @@ routeUsers.get('/:id', (req, res) => {
   const user = users.find((user) => user._id === id);
   if (user) {
     res.send(user);
+    return;
   }
   res.status(404).send({ message: 'Нет пользователя с таким id' });
 });
