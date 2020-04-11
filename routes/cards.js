@@ -1,10 +1,11 @@
 const router = require('express').Router();
+const routeCards = require('express').Router();
+const path = require('path');
 
-const cards = require('../data/cards.json');
+const cards = require(path.join(__dirname, '../data/cards.json'));
 
-
-router.get('/', (req, res) => {
-  res.status(200).send(cards);
+routeCards.get('/', (req, res) => {
+  res.send(cards);
 });
 
-module.exports = router;
+module.exports = routeCards;
